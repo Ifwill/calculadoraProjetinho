@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="base">
+        <div id="baseTeclado">
+        <div id="projetor">
+            <p id="exibir"></p>
+        </div>
+        <div id="teclado">
+            <div id="coluna">
+                <button onclick="operacaoMultiplicacao()" id="multiplicacao">*</button>
+                <button onclick="operacao1()">7</button>
+                <button onclick="operacao1()" id="quatro">4</button>
+                <button onclick="operacao1()" id="um">1</button>
+                <button onclick="operacaoCE()">CE</button>
+            </div>
+            <div id="coluna">
+                <button onclick="operacaoSubtracao()" id="subtracao">-</button>
+                <button onclick="operacao1()">8</button>
+                <button onclick="operacao1()">5</button>
+                <button onclick="operacao1()" id="dois">2</button>  
+                <button onclick="operacao1()">0</button>  
+            
+            </div>
+            <div id="coluna">
+                <button onclick="operacaoSoma()" id="soma">+</button>
+                <button onclick="operacao1()">9</button>
+                <button onclick="operacao1()">6</button>
+                <button onclick="operacao1()" id="treis">3</button>
+                <button onclick="operacaoDivisao()" id="divisao">/</button>
+            </div>
+            
+
+            <button onclick="operacao()" id="operacao">=</button>
+        </div>
+        </div>
+
+        </div>
+    
+</body>
+</html>
